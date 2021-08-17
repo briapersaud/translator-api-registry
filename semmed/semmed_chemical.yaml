@@ -317,6 +317,100 @@ paths:
       - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-PhenotypicFeature"
       - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-Gene"
       - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-treats-Disease"
+      #################################################################################################
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affected_by-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affected_by-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affected_by-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affected_by-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-affects-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-causes-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-causes-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-coexists_with-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupted_by-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupted_by-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-disrupts-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulated_by-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-negatively_regulates-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-physically_interacts_with-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulated_by-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-positively_regulates-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-prevents-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produced_by-CellularComponent-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produces-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produces-Cell-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produces-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produces-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-produces-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-AnatomicalEntity-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-SmallMolecule-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-BiologicalProcess-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-Disease-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-PhenotypicFeature-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-related_to-Gene-rev"
+      - "$ref": "#/components/x-bte-kgs-operations/SmallMolecule-treats-Disease-rev"
 components:
   parameters:
     callback:
@@ -488,8 +582,31 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affected_by-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/affected_by"
       predicate: affected_by
+    SmallMolecule-affected_by-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          ## BTE should only give this SmallMolecule UMLS IDs...
+          scopes: affected_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affects  ## give inverse biolink predicate
     SmallMolecule-affected_by-Disease:
     - inputSeparator: ","
       inputs:
@@ -509,8 +626,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affected_by-Disease"
+        "$ref": "#/components/x-bte-response-mapping/affected_by"
       predicate: affected_by
+    SmallMolecule-affected_by-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affected_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affects  ## give inverse biolink predicate
     SmallMolecule-affected_by-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -530,8 +669,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affected_by-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/affected_by"
       predicate: affected_by
+    SmallMolecule-affected_by-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affected_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affects  ## give inverse biolink predicate
     SmallMolecule-affected_by-Gene:
     - inputSeparator: ","
       inputs:
@@ -551,8 +712,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affected_by-Gene"
+        "$ref": "#/components/x-bte-response-mapping/affected_by"
       predicate: affected_by
+    SmallMolecule-affected_by-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affected_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affects  ## give inverse biolink predicate
     SmallMolecule-affects-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -572,8 +755,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-affects-Cell:
     - inputSeparator: ","
       inputs:
@@ -593,8 +798,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-Cell"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-affects-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -614,8 +841,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-affects-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -635,8 +884,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-affects-Disease:
     - inputSeparator: ","
       inputs:
@@ -656,8 +927,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-Disease"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-affects-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -677,8 +970,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-affects-Gene:
     - inputSeparator: ","
       inputs:
@@ -698,8 +1013,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-Gene"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-affects-CellularComponent:
     - inputSeparator: ","
       inputs:
@@ -719,8 +1056,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-affects-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/affects"
       predicate: affects
+    SmallMolecule-affects-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: affects.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: affected_by  ## give inverse biolink predicate
     SmallMolecule-causes-Disease:
     - inputSeparator: ","
       inputs:
@@ -740,8 +1099,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-causes-Disease"
+        "$ref": "#/components/x-bte-response-mapping/causes"
       predicate: causes
+    SmallMolecule-causes-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: causes.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: caused_by  ## give inverse biolink predicate
     SmallMolecule-causes-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -761,8 +1142,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-causes-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/causes"
       predicate: causes
+    SmallMolecule-causes-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: causes.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: caused_by  ## give inverse biolink predicate
     SmallMolecule-coexists_with-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -782,7 +1185,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-coexists_with-Cell:
     - inputSeparator: ","
@@ -803,7 +1228,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-Cell"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-coexists_with-SmallMolecule:
     - inputSeparator: ","
@@ -824,7 +1271,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-coexists_with-BiologicalProcess:
     - inputSeparator: ","
@@ -845,7 +1314,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-coexists_with-Disease:
     - inputSeparator: ","
@@ -866,7 +1357,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-Disease"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-coexists_with-PhenotypicFeature:
     - inputSeparator: ","
@@ -887,7 +1400,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-coexists_with-Gene:
     - inputSeparator: ","
@@ -908,7 +1443,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-Gene"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-coexists_with-CellularComponent:
     - inputSeparator: ","
@@ -929,7 +1486,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-coexists_with-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/coexists_with"
+      predicate: coexists_with
+    SmallMolecule-coexists_with-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: coexists_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: coexists_with
     SmallMolecule-disrupted_by-SmallMolecule:
     - inputSeparator: ","
@@ -950,8 +1529,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupted_by-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/disrupted_by"
       predicate: disrupted_by
+    SmallMolecule-disrupted_by-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupted_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupts
     SmallMolecule-disrupted_by-Gene:
     - inputSeparator: ","
       inputs:
@@ -971,8 +1572,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupted_by-Gene"
+        "$ref": "#/components/x-bte-response-mapping/disrupted_by"
       predicate: disrupted_by
+    SmallMolecule-disrupted_by-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupted_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupts
     SmallMolecule-disrupts-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -992,8 +1615,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-disrupts-Cell:
     - inputSeparator: ","
       inputs:
@@ -1013,8 +1658,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-Cell"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-disrupts-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -1034,8 +1701,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-disrupts-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -1055,8 +1744,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-disrupts-Disease:
     - inputSeparator: ","
       inputs:
@@ -1076,8 +1787,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-Disease"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-disrupts-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -1097,8 +1830,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-disrupts-Gene:
     - inputSeparator: ","
       inputs:
@@ -1118,8 +1873,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-Gene"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-disrupts-CellularComponent:
     - inputSeparator: ","
       inputs:
@@ -1139,8 +1916,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-disrupts-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/disrupts"
       predicate: disrupts
+    SmallMolecule-disrupts-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: disrupts.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: disrupted_by
     SmallMolecule-negatively_regulated_by-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -1160,8 +1959,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulated_by-Cell:
     - inputSeparator: ","
       inputs:
@@ -1181,8 +2002,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-Cell"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulated_by-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -1202,8 +2045,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulated_by-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -1223,8 +2088,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulated_by-Disease:
     - inputSeparator: ","
       inputs:
@@ -1244,8 +2131,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-Disease"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulated_by-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -1265,8 +2174,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulated_by-Gene:
     - inputSeparator: ","
       inputs:
@@ -1286,8 +2217,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-Gene"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulated_by-CellularComponent:
     - inputSeparator: ","
       inputs:
@@ -1307,8 +2260,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulated_by-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulated_by"
       predicate: entity_negatively_regulated_by_entity
+    SmallMolecule-negatively_regulated_by-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulates_entity
     SmallMolecule-negatively_regulates-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -1328,8 +2303,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-negatively_regulates-Cell:
     - inputSeparator: ","
       inputs:
@@ -1349,8 +2346,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-Cell"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-negatively_regulates-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -1370,8 +2389,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-negatively_regulates-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -1391,8 +2432,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-negatively_regulates-Disease:
     - inputSeparator: ","
       inputs:
@@ -1412,8 +2475,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-Disease"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-negatively_regulates-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -1433,8 +2518,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-negatively_regulates-Gene:
     - inputSeparator: ","
       inputs:
@@ -1454,8 +2561,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-Gene"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-negatively_regulates-CellularComponent:
     - inputSeparator: ","
       inputs:
@@ -1475,8 +2604,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-negatively_regulates-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/negatively_regulates"
       predicate: entity_negatively_regulates_entity
+    SmallMolecule-negatively_regulates-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: negatively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_negatively_regulated_by_entity
     SmallMolecule-physically_interacts_with-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -1496,7 +2647,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-physically_interacts_with-Cell:
     - inputSeparator: ","
@@ -1517,7 +2690,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-Cell"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-physically_interacts_with-SmallMolecule:
     - inputSeparator: ","
@@ -1538,7 +2733,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-physically_interacts_with-BiologicalProcess:
     - inputSeparator: ","
@@ -1559,7 +2776,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-physically_interacts_with-Disease:
     - inputSeparator: ","
@@ -1580,7 +2819,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-Disease"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-physically_interacts_with-PhenotypicFeature:
     - inputSeparator: ","
@@ -1601,7 +2862,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-physically_interacts_with-Gene:
     - inputSeparator: ","
@@ -1622,7 +2905,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-Gene"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-physically_interacts_with-CellularComponent:
     - inputSeparator: ","
@@ -1643,7 +2948,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-physically_interacts_with-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/physically_interacts_with"
+      predicate: physically_interacts_with
+    SmallMolecule-physically_interacts_with-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: physically_interacts_with.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: physically_interacts_with
     SmallMolecule-positively_regulated_by-AnatomicalEntity:
     - inputSeparator: ","
@@ -1664,8 +2991,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulated_by-Cell:
     - inputSeparator: ","
       inputs:
@@ -1685,8 +3034,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-Cell"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulated_by-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -1706,8 +3077,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulated_by-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -1727,8 +3120,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulated_by-Disease:
     - inputSeparator: ","
       inputs:
@@ -1748,8 +3163,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-Disease"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulated_by-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -1769,8 +3206,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulated_by-Gene:
     - inputSeparator: ","
       inputs:
@@ -1790,8 +3249,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-Gene"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulated_by-CellularComponent:
     - inputSeparator: ","
       inputs:
@@ -1811,8 +3292,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulated_by-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulated_by"
       predicate: entity_positively_regulated_by_entity
+    SmallMolecule-positively_regulated_by-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulated_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulates_entity
     SmallMolecule-positively_regulates-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -1832,8 +3335,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-positively_regulates-Cell:
     - inputSeparator: ","
       inputs:
@@ -1853,8 +3378,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-Cell"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-positively_regulates-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -1874,8 +3421,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-positively_regulates-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -1895,8 +3464,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-positively_regulates-Disease:
     - inputSeparator: ","
       inputs:
@@ -1916,8 +3507,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-Disease"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-positively_regulates-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -1937,8 +3550,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-positively_regulates-Gene:
     - inputSeparator: ","
       inputs:
@@ -1958,8 +3593,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-Gene"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-positively_regulates-CellularComponent:
     - inputSeparator: ","
       inputs:
@@ -1979,8 +3636,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-positively_regulates-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/positively_regulates"
       predicate: entity_positively_regulates_entity
+    SmallMolecule-positively_regulates-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: positively_regulates.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: entity_positively_regulated_by_entity
     SmallMolecule-prevents-Disease:
     - inputSeparator: ","
       inputs:
@@ -2000,8 +3679,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-prevents-Disease"
+        "$ref": "#/components/x-bte-response-mapping/prevents"
       predicate: prevents
+    SmallMolecule-prevents-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: prevents.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: prevented_by
     SmallMolecule-produced_by-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -2021,8 +3722,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produced_by-Cell:
     - inputSeparator: ","
       inputs:
@@ -2042,8 +3765,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-Cell"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produced_by-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -2063,8 +3808,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produced_by-BiologicalProcess:
     - inputSeparator: ","
       inputs:
@@ -2084,8 +3851,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produced_by-Disease:
     - inputSeparator: ","
       inputs:
@@ -2105,8 +3894,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-Disease"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produced_by-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -2126,8 +3937,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produced_by-Gene:
     - inputSeparator: ","
       inputs:
@@ -2147,8 +3980,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-Gene"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produced_by-CellularComponent:
     - inputSeparator: ","
       inputs:
@@ -2168,8 +4023,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produced_by-CellularComponent"
+        "$ref": "#/components/x-bte-response-mapping/produced_by"
       predicate: produced_by
+    SmallMolecule-produced_by-CellularComponent-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: CellularComponent
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produced_by.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produces
     SmallMolecule-produces-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -2189,8 +4066,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produces-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/produces"
       predicate: produces
+    SmallMolecule-produces-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produces.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produced_by
     SmallMolecule-produces-Cell:
     - inputSeparator: ","
       inputs:
@@ -2210,8 +4109,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produces-Cell"
+        "$ref": "#/components/x-bte-response-mapping/produces"
       predicate: produces
+    SmallMolecule-produces-Cell-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Cell
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produces.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produced_by
     SmallMolecule-produces-SmallMolecule:
     - inputSeparator: ","
       inputs:
@@ -2231,8 +4152,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produces-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/produces"
       predicate: produces
+    SmallMolecule-produces-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produces.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produced_by
     SmallMolecule-produces-PhenotypicFeature:
     - inputSeparator: ","
       inputs:
@@ -2252,8 +4195,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produces-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/produces"
       predicate: produces
+    SmallMolecule-produces-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produces.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produced_by
     SmallMolecule-produces-Gene:
     - inputSeparator: ","
       inputs:
@@ -2273,8 +4238,30 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-produces-Gene"
+        "$ref": "#/components/x-bte-response-mapping/produces"
       predicate: produces
+    SmallMolecule-produces-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: produces.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: produced_by
     SmallMolecule-related_to-AnatomicalEntity:
     - inputSeparator: ","
       inputs:
@@ -2294,7 +4281,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-related_to-AnatomicalEntity"
+        "$ref": "#/components/x-bte-response-mapping/related_to"
+      predicate: related_to
+    SmallMolecule-related_to-AnatomicalEntity-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: AnatomicalEntity
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: related_to.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: related_to
     SmallMolecule-related_to-SmallMolecule:
     - inputSeparator: ","
@@ -2315,7 +4324,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-related_to-SmallMolecule"
+        "$ref": "#/components/x-bte-response-mapping/related_to"
+      predicate: related_to
+    SmallMolecule-related_to-SmallMolecule-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: related_to.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: related_to
     SmallMolecule-related_to-BiologicalProcess:
     - inputSeparator: ","
@@ -2336,7 +4367,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-related_to-BiologicalProcess"
+        "$ref": "#/components/x-bte-response-mapping/related_to"
+      predicate: related_to
+    SmallMolecule-related_to-BiologicalProcess-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: BiologicalProcess
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: related_to.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: related_to
     SmallMolecule-related_to-Disease:
     - inputSeparator: ","
@@ -2357,7 +4410,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-related_to-Disease"
+        "$ref": "#/components/x-bte-response-mapping/related_to"
+      predicate: related_to
+    SmallMolecule-related_to-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: related_to.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: related_to
     SmallMolecule-related_to-PhenotypicFeature:
     - inputSeparator: ","
@@ -2378,7 +4453,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-related_to-PhenotypicFeature"
+        "$ref": "#/components/x-bte-response-mapping/related_to"
+      predicate: related_to
+    SmallMolecule-related_to-PhenotypicFeature-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: PhenotypicFeature
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: related_to.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: related_to
     SmallMolecule-related_to-Gene:
     - inputSeparator: ","
@@ -2399,7 +4496,29 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-related_to-Gene"
+        "$ref": "#/components/x-bte-response-mapping/related_to"
+      predicate: related_to
+    SmallMolecule-related_to-Gene-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Gene
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: related_to.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
       predicate: related_to
     SmallMolecule-treats-Disease:
     - inputSeparator: ","
@@ -2420,285 +4539,78 @@ components:
           scopes: umls
       supportBatch: true
       response_mapping:
-        "$ref": "#/components/x-bte-response-mapping/SmallMolecule-treats-Disease"
+        "$ref": "#/components/x-bte-response-mapping/treats"
       predicate: treats
+    SmallMolecule-treats-Disease-rev:
+    - inputSeparator: ","
+      inputs:
+      - id: UMLS
+        semantic: Disease
+      method: post
+      source: "infores:semmeddb"
+      outputs:
+      - id: UMLS
+        semantic: SmallMolecule
+      parameters:
+        fields: umls
+        ## what's returned should be SmallMolecule (since that's the basis of this API)
+      path: "/query"
+      requestBody:
+        body:
+          q: "{inputs[0]}"
+          scopes: treats.umls
+      supportBatch: true
+      response_mapping:
+        "$ref": "#/components/x-bte-response-mapping/umls"
+      predicate: treated_by
   x-bte-response-mapping:
-    SmallMolecule-affected_by-SmallMolecule:
+    umls:
+      umls: hits.umls
+    affected_by:
       umls: affected_by.umls
       pmid: affected_by.pmid
-    SmallMolecule-affected_by-Disease:
-      umls: affected_by.umls
-      pmid: affected_by.pmid
-    SmallMolecule-affected_by-BiologicalProcess:
-      umls: affected_by.umls
-      pmid: affected_by.pmid
-    SmallMolecule-affected_by-Gene:
-      umls: affected_by.umls
-      pmid: affected_by.pmid
-    SmallMolecule-affects-AnatomicalEntity:
+    affects:
       umls: affects.umls
       pmid: affects.pmid
-    SmallMolecule-affects-Cell:
-      umls: affects.umls
-      pmid: affects.pmid
-    SmallMolecule-affects-SmallMolecule:
-      umls: affects.umls
-      pmid: affects.pmid
-    SmallMolecule-affects-BiologicalProcess:
-      umls: affects.umls
-      pmid: affects.pmid
-    SmallMolecule-affects-Disease:
-      umls: affects.umls
-      pmid: affects.pmid
-    SmallMolecule-affects-PhenotypicFeature:
-      umls: affects.umls
-      pmid: affects.pmid
-    SmallMolecule-affects-Gene:
-      umls: affects.umls
-      pmid: affects.pmid
-    SmallMolecule-affects-CellularComponent:
-      umls: affects.umls
-      pmid: affects.pmid
-    SmallMolecule-causes-Disease:
+    causes:
       umls: causes.umls
       pmid: causes.pmid
-    SmallMolecule-causes-BiologicalProcess:
-      umls: causes.umls
-      pmid: causes.pmid
-    SmallMolecule-coexists_with-AnatomicalEntity:
+    coexists_with:
       umls: coexists_with.umls
       pmid: coexists_with.pmid
-    SmallMolecule-coexists_with-Cell:
-      umls: coexists_with.umls
-      pmid: coexists_with.pmid
-    SmallMolecule-coexists_with-SmallMolecule:
-      umls: coexists_with.umls
-      pmid: coexists_with.pmid
-    SmallMolecule-coexists_with-BiologicalProcess:
-      umls: coexists_with.umls
-      pmid: coexists_with.pmid
-    SmallMolecule-coexists_with-Disease:
-      umls: coexists_with.umls
-      pmid: coexists_with.pmid
-    SmallMolecule-coexists_with-PhenotypicFeature:
-      umls: coexists_with.umls
-      pmid: coexists_with.pmid
-    SmallMolecule-coexists_with-Gene:
-      umls: coexists_with.umls
-      pmid: coexists_with.pmid
-    SmallMolecule-coexists_with-CellularComponent:
-      umls: coexists_with.umls
-      pmid: coexists_with.pmid
-    SmallMolecule-disrupted_by-SmallMolecule:
+    disrupted_by:
       umls: disrupted_by.umls
       pmid: disrupted_by.pmid
-    SmallMolecule-disrupted_by-Gene:
-      umls: disrupted_by.umls
-      pmid: disrupted_by.pmid
-    SmallMolecule-disrupts-AnatomicalEntity:
+    disrupts:
       umls: disrupts.umls
       pmid: disrupts.pmid
-    SmallMolecule-disrupts-Cell:
-      umls: disrupts.umls
-      pmid: disrupts.pmid
-    SmallMolecule-disrupts-SmallMolecule:
-      umls: disrupts.umls
-      pmid: disrupts.pmid
-    SmallMolecule-disrupts-BiologicalProcess:
-      umls: disrupts.umls
-      pmid: disrupts.pmid
-    SmallMolecule-disrupts-Disease:
-      umls: disrupts.umls
-      pmid: disrupts.pmid
-    SmallMolecule-disrupts-PhenotypicFeature:
-      umls: disrupts.umls
-      pmid: disrupts.pmid
-    SmallMolecule-disrupts-Gene:
-      umls: disrupts.umls
-      pmid: disrupts.pmid
-    SmallMolecule-disrupts-CellularComponent:
-      umls: disrupts.umls
-      pmid: disrupts.pmid
-    SmallMolecule-negatively_regulated_by-AnatomicalEntity:
+    negatively_regulated_by:
       umls: negatively_regulated_by.umls
       pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulated_by-Cell:
-      umls: negatively_regulated_by.umls
-      pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulated_by-SmallMolecule:
-      umls: negatively_regulated_by.umls
-      pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulated_by-BiologicalProcess:
-      umls: negatively_regulated_by.umls
-      pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulated_by-Disease:
-      umls: negatively_regulated_by.umls
-      pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulated_by-PhenotypicFeature:
-      umls: negatively_regulated_by.umls
-      pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulated_by-Gene:
-      umls: negatively_regulated_by.umls
-      pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulated_by-CellularComponent:
-      umls: negatively_regulated_by.umls
-      pmid: negatively_regulated_by.pmid
-    SmallMolecule-negatively_regulates-AnatomicalEntity:
+    negatively_regulates:
       umls: negatively_regulates.umls
       pmid: negatively_regulates.pmid
-    SmallMolecule-negatively_regulates-Cell:
-      umls: negatively_regulates.umls
-      pmid: negatively_regulates.pmid
-    SmallMolecule-negatively_regulates-SmallMolecule:
-      umls: negatively_regulates.umls
-      pmid: negatively_regulates.pmid
-    SmallMolecule-negatively_regulates-BiologicalProcess:
-      umls: negatively_regulates.umls
-      pmid: negatively_regulates.pmid
-    SmallMolecule-negatively_regulates-Disease:
-      umls: negatively_regulates.umls
-      pmid: negatively_regulates.pmid
-    SmallMolecule-negatively_regulates-PhenotypicFeature:
-      umls: negatively_regulates.umls
-      pmid: negatively_regulates.pmid
-    SmallMolecule-negatively_regulates-Gene:
-      umls: negatively_regulates.umls
-      pmid: negatively_regulates.pmid
-    SmallMolecule-negatively_regulates-CellularComponent:
-      umls: negatively_regulates.umls
-      pmid: negatively_regulates.pmid
-    SmallMolecule-physically_interacts_with-AnatomicalEntity:
+    physically_interacts_with:
       umls: physically_interacts_with.umls
       pmid: physically_interacts_with.pmid
-    SmallMolecule-physically_interacts_with-Cell:
-      umls: physically_interacts_with.umls
-      pmid: physically_interacts_with.pmid
-    SmallMolecule-physically_interacts_with-SmallMolecule:
-      umls: physically_interacts_with.umls
-      pmid: physically_interacts_with.pmid
-    SmallMolecule-physically_interacts_with-BiologicalProcess:
-      umls: physically_interacts_with.umls
-      pmid: physically_interacts_with.pmid
-    SmallMolecule-physically_interacts_with-Disease:
-      umls: physically_interacts_with.umls
-      pmid: physically_interacts_with.pmid
-    SmallMolecule-physically_interacts_with-PhenotypicFeature:
-      umls: physically_interacts_with.umls
-      pmid: physically_interacts_with.pmid
-    SmallMolecule-physically_interacts_with-Gene:
-      umls: physically_interacts_with.umls
-      pmid: physically_interacts_with.pmid
-    SmallMolecule-physically_interacts_with-CellularComponent:
-      umls: physically_interacts_with.umls
-      pmid: physically_interacts_with.pmid
-    SmallMolecule-positively_regulated_by-AnatomicalEntity:
+    positively_regulated_by:
       umls: positively_regulated_by.umls
       pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulated_by-Cell:
-      umls: positively_regulated_by.umls
-      pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulated_by-SmallMolecule:
-      umls: positively_regulated_by.umls
-      pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulated_by-BiologicalProcess:
-      umls: positively_regulated_by.umls
-      pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulated_by-Disease:
-      umls: positively_regulated_by.umls
-      pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulated_by-PhenotypicFeature:
-      umls: positively_regulated_by.umls
-      pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulated_by-Gene:
-      umls: positively_regulated_by.umls
-      pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulated_by-CellularComponent:
-      umls: positively_regulated_by.umls
-      pmid: positively_regulated_by.pmid
-    SmallMolecule-positively_regulates-AnatomicalEntity:
+    positively_regulates:
       umls: positively_regulates.umls
       pmid: positively_regulates.pmid
-    SmallMolecule-positively_regulates-Cell:
-      umls: positively_regulates.umls
-      pmid: positively_regulates.pmid
-    SmallMolecule-positively_regulates-SmallMolecule:
-      umls: positively_regulates.umls
-      pmid: positively_regulates.pmid
-    SmallMolecule-positively_regulates-BiologicalProcess:
-      umls: positively_regulates.umls
-      pmid: positively_regulates.pmid
-    SmallMolecule-positively_regulates-Disease:
-      umls: positively_regulates.umls
-      pmid: positively_regulates.pmid
-    SmallMolecule-positively_regulates-PhenotypicFeature:
-      umls: positively_regulates.umls
-      pmid: positively_regulates.pmid
-    SmallMolecule-positively_regulates-Gene:
-      umls: positively_regulates.umls
-      pmid: positively_regulates.pmid
-    SmallMolecule-positively_regulates-CellularComponent:
-      umls: positively_regulates.umls
-      pmid: positively_regulates.pmid
-    SmallMolecule-prevents-Disease:
+    prevents:
       umls: prevents.umls
       pmid: prevents.pmid
-    SmallMolecule-produced_by-AnatomicalEntity:
+    produced_by:
       umls: produced_by.umls
       pmid: produced_by.pmid
-    SmallMolecule-produced_by-Cell:
-      umls: produced_by.umls
-      pmid: produced_by.pmid
-    SmallMolecule-produced_by-SmallMolecule:
-      umls: produced_by.umls
-      pmid: produced_by.pmid
-    SmallMolecule-produced_by-BiologicalProcess:
-      umls: produced_by.umls
-      pmid: produced_by.pmid
-    SmallMolecule-produced_by-Disease:
-      umls: produced_by.umls
-      pmid: produced_by.pmid
-    SmallMolecule-produced_by-PhenotypicFeature:
-      umls: produced_by.umls
-      pmid: produced_by.pmid
-    SmallMolecule-produced_by-Gene:
-      umls: produced_by.umls
-      pmid: produced_by.pmid
-    SmallMolecule-produced_by-CellularComponent:
-      umls: produced_by.umls
-      pmid: produced_by.pmid
-    SmallMolecule-produces-AnatomicalEntity:
+    produces:
       umls: produces.umls
       pmid: produces.pmid
-    SmallMolecule-produces-Cell:
-      umls: produces.umls
-      pmid: produces.pmid
-    SmallMolecule-produces-SmallMolecule:
-      umls: produces.umls
-      pmid: produces.pmid
-    SmallMolecule-produces-PhenotypicFeature:
-      umls: produces.umls
-      pmid: produces.pmid
-    SmallMolecule-produces-Gene:
-      umls: produces.umls
-      pmid: produces.pmid
-    SmallMolecule-related_to-AnatomicalEntity:
+    related_to:
       umls: related_to.umls
       pmid: related_to.pmid
-    SmallMolecule-related_to-SmallMolecule:
-      umls: related_to.umls
-      pmid: related_to.pmid
-    SmallMolecule-related_to-BiologicalProcess:
-      umls: related_to.umls
-      pmid: related_to.pmid
-    SmallMolecule-related_to-Disease:
-      umls: related_to.umls
-      pmid: related_to.pmid
-    SmallMolecule-related_to-PhenotypicFeature:
-      umls: related_to.umls
-      pmid: related_to.pmid
-    SmallMolecule-related_to-Gene:
-      umls: related_to.umls
-      pmid: related_to.pmid
-    SmallMolecule-treats-Disease:
+    treats:
       umls: treats.umls
       pmid: treats.pmid
